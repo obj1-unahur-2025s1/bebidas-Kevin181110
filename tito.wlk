@@ -9,8 +9,7 @@ object tito{
     }
     method bebida() = bebida
     method velocidad() {
-    return bebida.rendimiento(cantidad) *
-           self.inerciaBase() / self.peso()
+    return bebida.rendimiento(cantidad) * self.inerciaBase() / self.peso()
     }
 }
   
