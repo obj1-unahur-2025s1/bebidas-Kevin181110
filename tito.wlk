@@ -1,6 +1,6 @@
 object tito{
     method peso() = 70
-    var bebida =  cianurogi
+    var bebida =  cianuro
     var cantidad = 0
     method inerciaBase() = 490
     method consumir(unaCantidad, unaBebida){
