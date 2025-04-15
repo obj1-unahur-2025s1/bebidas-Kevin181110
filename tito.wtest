@@ -17,4 +17,8 @@ describe"test de tito"{
     self.consumoTerere()
     assert.equals(7,tito.velocidad())
   }
+ test "si consume cianuro la velocidad es 0"{
+    tito.consumir(5, cianuro)
+    assert.equals(0,tito.velocidad())
+  }
   }
